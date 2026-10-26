@@ -1,0 +1,24 @@
+NSN WORLD 3D — PHASE 1: AVATAR & OUTFIT VISUAL UPGRADE
+=====================================================
+
+What changed in this phase
+- Reworked the procedural 3D avatar with additional facial features, ears, eyes, brows, nose and lips.
+- Added hair cap, fringe and side locks with gender styling.
+- Added layered garment details: lapels, seams, collar, buttons, hood, cuffs and coat hem.
+- Improved clothing silhouettes for jacket, hoodie, dress, shirt, sport and coat choices.
+- Color changes apply to the garment layers, sleeves and dress silhouette.
+- Kept the model interactive with camera rotation and existing motion controls.
+- Preserved the NSN project as a separate project; no QMR files or database are connected.
+
+Honest technical limits
+- This is still a procedural Three.js character built from meshes. It is not a scanned/photorealistic human, a rigged GLB/GLTF fashion model, or cloth simulation.
+- Motion remains simple procedural animation, not motion-capture walking.
+- Outfit changes are visual approximations; garments are not tailored to body measurements and sizes do not guarantee fit.
+- For a production-grade next phase, source or commission properly licensed rigged human models and compatible garment assets (GLB/GLTF), then implement skeleton retargeting and garment swaps.
+- No Supabase connection has been added in this phase.
+
+Quick test
+1. Open index.html through a static web server or deploy the folder to a new GitHub repository/GitHub Pages.
+2. Internet access is required for the Three.js CDN import.
+3. Enter the site, scroll to the 3D studio, test both avatars, each outfit, each color swatch, rotation and walk toggle.
+4. Test on desktop and mobile. If a device/browser cannot provide WebGL, the 3D canvas may not render.

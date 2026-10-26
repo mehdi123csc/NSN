@@ -1,0 +1,12 @@
+NSN WORLD 3D — PHASE 1B: NSN ICONS
+
+This update adds four original fictional fashion personas to the 3D studio:
+- Luna Veyra — elegance
+- Zayn Noir — luxury streetwear
+- Amara Sol — bold style
+- Kai Sterling — premium sport
+
+The personas are original brand characters, not digital replicas of real celebrities.
+The current meshes remain procedural Three.js geometry. They have persona-specific skin/hair colors and labels, but they are NOT realistic scanned human models and do not yet use rigged GLB/GLTF assets, facial animation, or cloth simulation.
+
+No Supabase credentials are included. Product/order persistence is still local/demo until the owner connects Supabase and configures secure database policies.

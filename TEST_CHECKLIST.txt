@@ -1,0 +1,20 @@
+NSN WORLD TEST CHECKLIST
+========================
+Frontend checks completed in the build environment:
+- index.html and admin.html module scripts pass JavaScript syntax checks.
+- Project contains separate storefront and admin entry points.
+- No Supabase credentials are bundled.
+
+Manual checks required after download/deployment:
+[ ] Open index.html on desktop and mobile; confirm intro, 3D showroom and avatar stage render with internet access.
+[ ] Drag/rotate avatar, switch gender/outfit/color/size, and test walk toggle.
+[ ] Search/filter/sort products and toggle favorites.
+[ ] Add several items, change quantities, remove items, refresh page and confirm local cart/favorites persist.
+[ ] Submit a demo checkout with valid fields; confirm it is explicitly marked local/demo and appears under “طلباتي”.
+[ ] Confirm no real order is sent before Supabase is connected.
+[ ] In a fresh NSN Supabase project, review/run supabase-schema.sql and create an admin profile securely.
+[ ] Copy config.example.js to config.js with the correct URL and anon/publishable key only.
+[ ] Test admin login, product create/publish/stock update, order status update, RPC checkout and tracking.
+[ ] Verify anonymous clients cannot read orders, profiles, coupons, or customer personal data.
+[ ] Test insufficient stock, invalid coupon, malformed payload, duplicate product lines, and concurrent checkouts.
+[ ] Review SQL/RLS and add rate limiting/abuse controls before production.
